@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<h1>THINGS TO DO</h1>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script src="/assets/jquery.isotope.js" type="text/javascript"></script> 
+</head>
+<body>
+ 
+<script type="text/javascript">
+
+$(function(){
+  $('#container').isotope({
+  getSortData : {
+    id : function ( $elem ) {
+      return $elem.find('.priority').text();
+    }
+  }
+});
+	
+$('.sort a').click(function(){
+  var sortName = $(this).attr('href').slice(1);
+  $('#container').isotope({ sortBy : sortName });
+  return false;
+});
+
+  
+  
+  var $container = $('#container'),
+      $body = $('body'),
+      colW = 60,
+      columns = null;
+  
+  $container.isotope({
+    // disable window resizing
+    resizable: false,
+    masonry: {
+      columnWidth: colW
+    }
+  });
+  
+  $(window).smartresize(function(){
+    // check if columns has changed
+    var currentColumns = Math.floor( ( $body.width() -10 ) / colW );
+    if ( currentColumns !== columns ) {
+      // set new column count
+      columns = currentColumns;
+      // apply width to container manually, then trigger relayout
+      $container.width( columns * colW )
+        .isotope('reLayout');
+    }
+    
+  }).smartresize(); // trigger resize to set container width
+  
+});
+ 
+</script>
+<div id='container'>
+<div id='menu'>
+	<a class='button' href='<%= new_note_path %>'>NEW NOTE</a>
+	<div class='sort'>
+	<p class='etykieta'>SORT-BY:</p>
+	<a class='button' href='#id'>PRIORITY</a>
+	<a class='button' href='#random'>RANDOM</a>
+	<a class='button' href='#original-order'>ORIGINAL</a>
+	</div>
+</div>
+<% @notes.each do |note| %>
+      <div class='item' id='<%= note.priority %>'>
+	   <p id='edit'><%= link_to 'Edit', edit_note_path(note)  %></p>
+	   <p id='delete'><%= link_to 'Delete', note, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+	   	<p class='priority' hidden='true'><%= note.priority %><p>
+		<p class='image'><%= image_tag note.photo_url(:thumb).to_s %><p>
+		<p class='title'><%= note.title %><p>
+        <p class='description'><%= note.description %></p>
+      </div>
+<% end %>
+</div>
+</body>
+
+<html>

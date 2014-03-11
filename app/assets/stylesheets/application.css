@@ -1,0 +1,238 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+ 
+
+h1{
+	font-family:"Courier New", Courier, monospace;
+	font-weight:bold;
+	font-size:250%;
+	margin-left:40%;
+	color: #4479BA;
+
+}
+div#b{
+	width:335px;
+	height:258px;	
+	background-image:url('/assets/qurgent.png');
+}
+
+#edit{
+	position:fixed;
+	margin-left:30px;
+	margin-top:5px;
+}
+
+.title{
+	text-align:justify;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bolder;
+	font-size:24px;
+	position:fixed;
+	margin-left:40%;
+	margin-top:30px;
+}
+
+.description{
+	text-align:justify;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	text-decoration:underline;
+	font-weight:bold;
+	position:fixed;
+	margin-top:140px;
+	margin-left:10px;
+}
+
+#delete{
+	position:fixed;
+	margin-left:260px;
+	margin-top:5px;
+}
+
+
+div#a{
+	width:335px;
+	height:258px;	
+	background-image:url('/assets/urgent.png');
+}
+
+div#c{
+	width:335px;
+	height:258px;	
+	background-image:url('/assets/nurgent.png');
+}
+
+#container {
+	background-image:url('/assets/tlo.png');
+	position:absolute;
+	border:10px solid #949494;
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	border-radius:5px;
+	behavior:url(border-radius.htc); 
+}
+
+.image{
+	position:absolute;
+	margin-top:30px;
+	margin-left:10px;
+}
+
+.new_note{
+	margin-left:25%;
+	width:677px;
+	height:548px;
+	background-image:url('/assets/form.png');
+}
+
+.edit_note{
+	margin-left:25%;
+	width:677px;
+	height:548px;
+	background-image:url('/assets/form.png');
+}
+
+#menu{
+	display:block;
+	margin:10px;
+	width:200px;
+	height:200px;
+	border:solid 2px;
+}
+
+.item{
+	margin: 10px;
+}
+
+/* no transition on .isotope container */
+
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+.button {
+	text-align:center;
+	display:block;
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.etykieta {
+	margin:0px;
+	text-align:left;
+	display:block;
+    padding: 10px 15px;
+    background: #00cc33;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.button:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+}
+
+#priority{
+	position:fixed;
+	margin-top:5x;
+	margin-left:30px;
+}
+
+#title{
+	position:fixed;
+	margin-left:350px;
+	margin-top:100px;
+}
+
+#description{
+	position:fixed;
+	margin-left:30px;
+	margin-top:220px;
+}
+
+#photo{
+	position:fixed;
+	margin-left:30px;
+	margin-top:100px;
+}
+
+label{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bolder;
+	font-size:20px;
+}
+
+select{
+	width:150px;
+	text-align:justify;
+}
+
+textarea{
+	width:600px;
+	height:250px;
+	text-align:justify;
+}
+
+.actions{
+	position:fixed;
+	margin-left:30px;
+	margin-top:500px;
+}
+
+.back{
+	display:block;
+	margin-left:25%;
+	width:677px;
+}
