@@ -44,5 +44,5 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'carrierwave'
 gem 'mini_magick', '3.5.0'
+gem 'carrierwave-dropbox'

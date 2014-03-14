@@ -70,7 +70,7 @@ $('.sort a').click(function(){
 	   <p id='edit'><%= link_to 'Edit', edit_note_path(note)  %></p>
 	   <p id='delete'><%= link_to 'Delete', note, method: :delete, data: { confirm: 'Are you sure?' } %></p>
 	   	<p class='priority' hidden='true'><%= note.priority %><p>
-		<p class='image'><%= image_tag note.photo_url(:thumb).to_s %><p>
+		<p class='image'><%= image_tag note.photo_url.to_s %><p>
 		<p class='title'><%= note.title %><p>
         <p class='description'><%= note.description %></p>
       </div>
