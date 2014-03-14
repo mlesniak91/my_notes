@@ -5,6 +5,5 @@ CarrierWave.configure do |config|
   config.dropbox_access_token_secret = 'snqdijotz2o8bym'
   config.dropbox_user_id = '277017821'
   config.dropbox_access_type = "dropbox"
-  config.cache_dir = "carrierwave"
   config.delete_tmp_file_after_storage = true
 end
