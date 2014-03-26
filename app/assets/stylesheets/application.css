@@ -24,7 +24,7 @@ h1{
 div#b{
 	width:335px;
 	height:258px;	
-	background-image:url('/assets/qurgent.png');
+	background-image:url('../assets/qurgent.png');
 }
 
 #edit{
@@ -64,17 +64,17 @@ div#b{
 div#a{
 	width:335px;
 	height:258px;	
-	background-image:url('/assets/urgent.png');
+	background-image:url('../assets/urgent.png');
 }
 
 div#c{
 	width:335px;
 	height:258px;	
-	background-image:url('/assets/nurgent.png');
+	background-image:url('../assets/nurgent.png');
 }
 
 #container {
-	background-image:url('/assets/tlo.png');
+	background-image:url('../assets/tlo.png');
 	position:absolute;
 	border:10px solid #949494;
 	-moz-border-radius:5px; 
@@ -94,14 +94,14 @@ div#c{
 	margin-left:25%;
 	width:677px;
 	height:548px;
-	background-image:url('/assets/form.png');
+	background-image:url('../assets/form.png');
 }
 
 .edit_note{
 	margin-left:25%;
 	width:677px;
 	height:548px;
-	background-image:url('/assets/form.png');
+	background-image:url('../assets/form.png');
 }
 
 #menu{
