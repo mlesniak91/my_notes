@@ -2,8 +2,8 @@
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ * Any CSS and SCSS file within this directory, lib/images/stylesheets, vendor/images/stylesheets,
+ * or vendor/images/stylesheets of plugins, if any, can be referenced here using a relative path.
  *
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
@@ -24,7 +24,7 @@ h1{
 div#b{
 	width:335px;
 	height:258px;	
-	background-image:url('../assets/qurgent.png');
+	background-image:url('../images/qurgent.png');
 }
 
 #edit{
@@ -64,17 +64,17 @@ div#b{
 div#a{
 	width:335px;
 	height:258px;	
-	background-image:url('../assets/urgent.png');
+	background-image:url('../images/urgent.png');
 }
 
 div#c{
 	width:335px;
 	height:258px;	
-	background-image:url('../assets/nurgent.png');
+	background-image:url('../images/nurgent.png');
 }
 
 #container {
-	background-image:url('../assets/tlo.png');
+	background-image:url('../images/tlo.png');
 	position:absolute;
 	border:10px solid #949494;
 	-moz-border-radius:5px; 
@@ -94,14 +94,14 @@ div#c{
 	margin-left:25%;
 	width:677px;
 	height:548px;
-	background-image:url('../assets/form.png');
+	background-image:url('../images/form.png');
 }
 
 .edit_note{
 	margin-left:25%;
 	width:677px;
 	height:548px;
-	background-image:url('../assets/form.png');
+	background-image:url('../images/form.png');
 }
 
 #menu{
