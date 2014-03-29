@@ -10,27 +10,36 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field" id='priority'>
-    <%= f.label :priority %>
-    <%= f.select :priority, options_for_select([["Urgent", "a"], ["Quite urgent", "b"],["Not urgent", "c"]]) %>
+  <div class="row">
+  <div class="col-xs-6 col-md-4" id='priority'>
+    <%= f.label :priority %><br>
+    <%= f.select :priority, options_for_select([["Urgent", "a"], ["Quite urgent", "b"],["Not urgent", "c"]]),{},{ :class => 'form-control' }%><br>
   </div>
-  <div class="field" id='title'>
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
   </div>
-  <div class="field" id='description'>
-    <%= f.label :description %><br>
-    <%= f.text_area :description %>
-  </div>
-  <div class="field" id='photo'>
+  <div class="row">
+  <div class="col-xs-6 col-md-4" id='photo'>
     <%= f.label :photo %><br>
     <%= f.file_field :photo %><br>
-	
+  </div>
+  <div class="col-xs-6 col-md-4" id='title'>
+    <%= f.label :title %><br>
+    <%= f.text_field :title ,{ :class => 'form-control' } %>
+  </div>
+  </div>
+   <div class="row">
+    <div class="col-xs-6 col-md-4" id='photo'>
 	<%= f.label :remote_photo_url, "or Photo URL" %><br>
-    <%= f.text_field :remote_photo_url %>
+    <%= f.text_field :remote_photo_url ,{ :class => 'form-control' }%><br>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+   </div>
+    <div class="row">
+    <div class="col-xs-12 col-md-8" id='description'>
+    <%= f.label :description %><br>
+    <%= f.text_area :description ,{ :class => 'form-control' }%><br>
   </div>
+   </div>
+    <div class="actions">
+    <%= f.submit({ :class => 'btn btn-success' }) %>
+	<button type="button" class="btn btn-primary" onclick="window.location.href='/notes'">Back</button>
+	</div>
 <% end %>
