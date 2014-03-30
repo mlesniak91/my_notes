@@ -55,6 +55,12 @@
 	
 }
 
+.checked{
+	position:absolute;
+	margin-left:13%;
+	margin-top:1px;	
+}
+
 .item#a{
 	background-color:#d9534f;
 }
@@ -69,7 +75,7 @@
 
 div#search{
 	margin-top:10px;
-	margin-left:390px;
+	float:right;
 }
 /* no transition on .isotope container */
 

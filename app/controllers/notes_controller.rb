@@ -50,7 +50,43 @@ class NotesController < ApplicationController
       end
     end
   end
+  
+  # GET /notes/1
+  # GET /notes/1.json
+   def checked
+    note = Note.find(params[:id])
+    note.checked = 'true'
+    note.save
 
+    redirect_to notes_url
+  end
+  
+  # GET /notes/1
+  # GET /notes/1.json
+   def unchecked
+    note = Note.find(params[:id])
+    note.checked = 'false'
+    note.save
+
+    redirect_to notes_url
+  end
+  
+  # GET /delchecked
+   def delchecked
+   
+     ary = Array.new();
+   	Note.all.each do |note| 
+		if note.checked == 'true'
+		 	ary.push(note.id)
+		end
+	end
+	ary.each { |x|
+		@note = Note.find(x)
+		@note.destroy
+	}
+	 redirect_to notes_url
+  end
+  
   # DELETE /notes/1
   # DELETE /notes/1.json
   def destroy
@@ -69,6 +105,6 @@ class NotesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def note_params
-      params.require(:note).permit(:priority, :title, :description, :photo, :remote_photo_url)
+      params.require(:note).permit(:priority, :title, :description, :photo, :remote_photo_url, :checked)
     end
 end

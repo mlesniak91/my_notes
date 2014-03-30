@@ -15,6 +15,7 @@
     <%= f.label :priority %><br>
     <%= f.select :priority, options_for_select([["Urgent", "a"], ["Quite urgent", "b"],["Not urgent", "c"]]),{},{ :class => 'form-control' }%><br>
   </div>
+  <input type="hidden" name="note[checked]" value="false">
   </div>
   <div class="row">
   <div class="col-xs-6 col-md-4" id='photo'>

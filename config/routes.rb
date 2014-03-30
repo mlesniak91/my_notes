@@ -56,4 +56,18 @@ MyNotes::Application.routes.draw do
   #     resources :products
   #   end
   root to: "notes#index"
+  
+  resources :notes do
+    member do
+        get :checked
+    end
+   end
+   
+   resources :notes do
+    member do
+        get :unchecked
+    end
+   end
+   
+   get '/delchecked' => 'notes#delchecked'
 end
