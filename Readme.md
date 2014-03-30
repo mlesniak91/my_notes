@@ -1,13 +1,13 @@
 ### My Notes - Lista
 
-*Doda³em jQuery Isotope do pozycjonowania karteczek na stronie (responsywnoœæ),
-*Doda³em sortowanie karteczek po priorytecie ka¿dego zadania (wa¿ne zadania na pocz¹tku),
-*Do dodawania obrazków u¿y³em gemu 'carrierwave-dropbox' co sprawia, ¿e obrazki s¹ przechowywane na dropboxie, 
-*Poprawi³em wygl¹d formularzy oraz pozosta³ych stron zw³aszcza index za pomoc¹ gemu 'bootstrap-generators',
-*Doda³em opcje wyszukiwania karteczek po tytu³ach jak i opisach
-*Doda³em oznaczanie zadañ jako zrobione dziêki czemu mo¿na jednym przyciskiem usun¹æ wszystkie wykonane zadania,
-*Doda³em paginacje za pomoc¹ gemu 'will_paginate-bootstrap',
-*Zadba³em o responsywnoœæ wszyskich widoków.
+* Dodaï¿½em jQuery Isotope do pozycjonowania karteczek na stronie (responsywnoï¿½ï¿½),
+* Dodaï¿½em sortowanie karteczek po priorytecie kaï¿½dego zadania (waï¿½ne zadania na poczï¿½tku),
+* Do dodawania obrazkï¿½w uï¿½yï¿½em gemu 'carrierwave-dropbox' co sprawia, ï¿½e obrazki sï¿½ przechowywane na dropboxie, 
+* Poprawiï¿½em wyglï¿½d formularzy oraz pozostaï¿½ych stron zwï¿½aszcza index za pomocï¿½ gemu 'bootstrap-generators',
+* Dodaï¿½em opcje wyszukiwania karteczek po tytuï¿½ach jak i opisach
+* Dodaï¿½em oznaczanie zadaï¿½ jako zrobione dziï¿½ki czemu moï¿½na jednym przyciskiem usunï¿½ï¿½ wszystkie wykonane zadania,
+* Dodaï¿½em paginacje za pomocï¿½ gemu 'will_paginate-bootstrap',
+* Zadbaï¿½em o responsywnoï¿½ï¿½ wszyskich widokï¿½w.
 
 Link do aplikacji na Heroku:
 http://mlesniak.herokuapp.com
