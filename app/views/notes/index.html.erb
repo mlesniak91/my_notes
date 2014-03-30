@@ -132,6 +132,7 @@ $('.sort a').click(function(){
       </div>
 <% end %>
 </div>
+<%= will_paginate @notes , renderer: BootstrapPagination::Rails%>
 </body>
 
 <html>

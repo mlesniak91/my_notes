@@ -4,7 +4,7 @@ class NotesController < ApplicationController
   # GET /notes
   # GET /notes.json
   def index
-    @notes = Note.search(params[:search])
+    @notes = Note.search(params[:search]).paginate(:per_page => 6, :page => params[:page])
   end
 
   # GET /notes/1

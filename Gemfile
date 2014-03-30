@@ -55,3 +55,4 @@ group :production do
 end
 
 gem 'bootstrap-generators', '~> 3.1.1'
+gem 'will_paginate-bootstrap'
