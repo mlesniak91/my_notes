@@ -7,7 +7,7 @@
 * Dodałem opcje wyszukiwania karteczek po tytułach jak i opisach
 * Dodałem oznaczanie zadań jako zrobione dzięki czemu można jednym przyciskiem usunąć wszystkie wykonane zadania,
 * Dodałem paginacje za pomocą gemu 'will_paginate-bootstrap',
-* Zadbałem o responsywno�� wszyskich widok�w.
+* Zadbałem o responsywność wszyskich widoków.
 
 Link do aplikacji na Heroku:
 http://mlesniak.herokuapp.com
