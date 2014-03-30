@@ -63401,3 +63401,1598 @@ Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 11:49:34 +0200
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 11:49:34 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-30 12:04:37 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NotesController#index as HTML
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes"
+  Rendered notes/index.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 895ms (Views: 865.1ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:39 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:04:39 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:40 +0200
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2014-03-30 12:04:43 +0200
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (176.0ms)
+  Rendered notes/new.html.erb within layouts/application (214.0ms)
+Completed 200 OK in 458ms (Views: 456.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2014-03-30 12:04:43 +0200
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (12.0ms)
+  Rendered notes/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 177ms (Views: 176.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:44 +0200
+
+
+Started POST "/notes" for 127.0.0.1 at 2014-03-30 12:04:56 +0200
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ypcAaw0Tv+Nllrgqn2Ok2kUI6mzhR81xs1GhEjJdI9Y=", "note"=>{"priority"=>"b", "checked"=>"false", "title"=>"clkzx.xmz", "remote_photo_url"=>"", "description"=>"ldmsak.dm"}, "commit"=>"Create Note"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (42.0ms)[0m  INSERT INTO "notes" ("checked", "created_at", "description", "photo", "priority", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["checked", "false"], ["created_at", Sun, 30 Mar 2014 10:04:56 UTC +00:00], ["description", "ldmsak.dm"], ["photo", nil], ["priority", "b"], ["title", "clkzx.xmz"], ["updated_at", Sun, 30 Mar 2014 10:04:56 UTC +00:00]]
+  [1m[36m (63.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notes
+Completed 302 Found in 125ms (ActiveRecord: 105.9ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2014-03-30 12:04:56 +0200
+Processing by NotesController#index as HTML
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes"
+  Rendered notes/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 211ms (Views: 208.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:04:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:56 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:56 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:04:56 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:04:56 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:56 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:04:57 +0200
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2014-03-30 12:07:53 +0200
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (37.0ms)
+  Rendered notes/new.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 351ms (Views: 237.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (15.0ms)
+  Rendered notes/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 190ms (Views: 187.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:54 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:55 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:55 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:55 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:55 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:55 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:07:55 +0200
+
+
+Started POST "/notes" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ypcAaw0Tv+Nllrgqn2Ok2kUI6mzhR81xs1GhEjJdI9Y=", "note"=>{"priority"=>"a", "checked"=>"false", "title"=>"klnzxj", "remote_photo_url"=>"", "description"=>"kldfnskfn"}, "commit"=>"Create Note"}
+Unpermitted parameters: checked
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "notes" ("created_at", "description", "photo", "priority", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Sun, 30 Mar 2014 10:08:00 UTC +00:00], ["description", "kldfnskfn"], ["photo", nil], ["priority", "a"], ["title", "klnzxj"], ["updated_at", Sun, 30 Mar 2014 10:08:00 UTC +00:00]]
+  [1m[36m (111.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notes
+Completed 302 Found in 142ms (ActiveRecord: 115.0ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+Processing by NotesController#index as HTML
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  [1m[35mNote Load (2.0ms)[0m  SELECT "notes".* FROM "notes"
+  Rendered notes/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 184ms (Views: 180.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:00 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:08:01 +0200
+
+
+Started DELETE "/notes/15" for 127.0.0.1 at 2014-03-30 12:09:49 +0200
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ypcAaw0Tv+Nllrgqn2Ok2kUI6mzhR81xs1GhEjJdI9Y=", "id"=>"15"}
+  [1m[36mNote Load (1.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT 1[0m  [["id", "15"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM "notes" WHERE "notes"."id" = ?[0m  [["id", 15]]
+  [1m[35m (94.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/notes
+Completed 302 Found in 161ms (ActiveRecord: 99.0ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+Processing by NotesController#index as HTML
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  [1m[36mNote Load (1.0ms)[0m  [1mSELECT "notes".* FROM "notes"[0m
+  Rendered notes/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 167ms (Views: 164.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:50 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:51 +0200
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2014-03-30 12:09:53 +0200
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (15.0ms)
+  Rendered notes/new.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 231ms (Views: 229.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (8.0ms)
+  Rendered notes/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 177ms (Views: 175.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:54 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:55 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:55 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:55 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:55 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:55 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:09:55 +0200
+
+
+Started GET "/notes" for 127.0.0.1 at 2014-03-30 12:23:10 +0200
+Processing by NotesController#index as HTML
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+ERROR: compiling _app_views_notes_index_html_erb___2130163412_48454240 RAISED C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/views/notes/index.html.erb:85: syntax error, unexpected tLABEL, expecting '='
+...append=( delchecked_path, data: { confirm: 	'Are you sure yo...
+...                               ^
+Function body:           def _app_views_notes_index_html_erb___2130163412_48454240(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "notes/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<!DOCTYPE html>
+<html>
+<h1>THINGS TO DO</h1>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script src="http://sigma.ug.edu.pl/~mlesniak/jquery.isotope.js" type="text/javascript"></script> 
+</head>
+<body>
+ 
+<script type="text/javascript">
+
+$(function(){
+  $(\'#container\').isotope({
+  getSortData : {
+    id : function ( $elem ) {
+      return $elem.find(\'.priority\').text();
+    }
+  }
+});
+	
+$(\'.sort a\').click(function(){
+  var sortName = $(this).attr(\'href\').slice(1);
+  $(\'#container\').isotope({ sortBy : sortName });
+  return false;
+});
+
+  
+  
+  var $container = $(\'#container\'),
+      $body = $(\'body\'),
+      colW = 60,
+      columns = null;
+  
+  $container.isotope({
+    // disable window resizing
+    resizable: false,
+    masonry: {
+      columnWidth: colW
+    }
+  });
+  
+  $(window).smartresize(function(){
+    // check if columns has changed
+    var currentColumns = Math.floor( ( $body.width() -10 ) / colW );
+    if ( currentColumns !== columns ) {
+      // set new column count
+      columns = currentColumns;
+      // apply width to container manually, then trigger relayout
+      $container.width( columns * colW )
+        .isotope(\'reLayout\');
+    }
+    
+  }).smartresize(); // trigger resize to set container width
+  
+});
+ 
+</script>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        ';@output_buffer.append=( link_to "MyNotes", "", :class => "navbar-brand" );@output_buffer.safe_append='
+';@output_buffer.safe_append='      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+		<li class="active"><a href=\'/notes\'>HOME</a></li>
+		  <li class="active"><a href=\'';@output_buffer.append=( new_note_path );@output_buffer.safe_append='\'>NEW NOTE</a></li>
+		     <li class="dropdown active">
+    		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      		SORT-BY<span class="caret"></span>
+    		</a>
+    		<ul class="dropdown-menu sort">
+				<li><a href=\'#id\'>PRIORITY</a></li>
+				<li class="divider"></li>
+				<li><a href=\'#random\'>RANDOM</a></li>
+				<li class="divider"></li>
+				<li><a href=\'#original-order\'>ORIGINAL</a></li>		
+          	</ul>
+  			</li>
+			<li class="active"><a href=\'';@output_buffer.append=( delchecked_path, data: { confirm: 	'Are you sure you want to delete all things mark as done?' });@output_buffer.safe_append='\'>REMOVE DONE</a></li>
+			</ul>
+			<div class="col-xs-12 col-md-3" id="search">
+				';@output_buffer.append=  form_tag notes_path, :method => 'get' do @output_buffer.safe_append='			
+';@output_buffer.safe_append='				<div class="input-group">
+    			';@output_buffer.append=( text_field_tag :search, params[:search] ,{ :class => 'form-control' });@output_buffer.safe_append='
+';@output_buffer.safe_append='				<span class="input-group-btn">
+    			';@output_buffer.append=( submit_tag "Search", :title => nil, :description => nil, :class => 'btn btn-default' );@output_buffer.safe_append='
+';@output_buffer.safe_append='				</span>
+				</div>
+';			 end 
+@output_buffer.safe_append='			</div>
+      </div>
+    </div>
+</div>
+<div id=\'container\'>
+'; @notes.each do |note| 
+@output_buffer.safe_append='      <div class=\'item\' id=\'';@output_buffer.append=( note.priority );@output_buffer.safe_append='\'>
+	   <div class="edit">
+	  ';@output_buffer.append=( link_to image_tag("http://sigma.ug.edu.pl/~mlesniak/glyphicons/glyphicons_150_edit.png", :border => 0), edit_note_path(note)  );@output_buffer.safe_append='
+';@output_buffer.safe_append='	  </div>
+	  <div class="delete">
+	  ';@output_buffer.append=( link_to image_tag("http://sigma.ug.edu.pl/~mlesniak/glyphicons/glyphicons_016_bin.png", :border => 0), note, method: :delete, data: { confirm: 	'Are you sure?' } );@output_buffer.safe_append='
+';@output_buffer.safe_append='	   </div>
+	   	<p class=\'priority\' hidden=\'true\'>';@output_buffer.append=( note.priority );@output_buffer.safe_append='<p>
+		<p class=\'checked\' hidden=\'true\'>';@output_buffer.append=( note.checked );@output_buffer.safe_append='<p>
+		 <div class="photo">
+		<p class=\'image\'>';@output_buffer.append=( image_tag note.photo_url.to_s,{ :class => 'img-thumbnail' } );@output_buffer.safe_append='<p>
+		 </div>
+		 <div class="checked">
+		 ';@output_buffer.append=( if note.checked == 'false'
+				 (link_to image_tag("http://sigma.ug.edu.pl/~mlesniak/glyphicons/glyphicons_153_unchecked.png", :border => 0), checked_note_path(note))
+  		  	 end
+		  );@output_buffer.safe_append='
+';@output_buffer.safe_append='		  ';@output_buffer.append=( if note.checked == 'true'
+				 (link_to image_tag("http://sigma.ug.edu.pl/~mlesniak/glyphicons/glyphicons_152_check.png", :border => 0), unchecked_note_path(note))
+  		  	 end
+		  );@output_buffer.safe_append='
+';@output_buffer.safe_append='		  </div>
+		 <div class="title">
+		 <div class="col-xs-6">
+		<h3>';@output_buffer.append=( note.title );@output_buffer.safe_append='</h3>
+		</div>
+		</div>
+		 <div class="description">
+        ';@output_buffer.append=( note.description );@output_buffer.safe_append='
+';@output_buffer.safe_append='		</div>
+      </div>
+'; end 
+@output_buffer.safe_append='</div>
+</body>
+
+<html>';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:299:in `module_eval'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:299:in `compile'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:248:in `block in compile!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:236:in `synchronize'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:236:in `compile!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:142:in `block in render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:161:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:141:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `block in instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:17:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/renderer.rb:42:in `render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/renderer.rb:23:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:127:in `_render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:97:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rendering.rb:16:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+C:/Ruby200-x64/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/base.rb:189:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:413:in `_run__1422206926__process_action__callbacks'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:80:in `run_callbacks'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `block in instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/base.rb:136:in `process'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:44:in `process'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal.rb:195:in `dispatch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal.rb:231:in `block in action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:80:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:48:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/journey/router.rb:71:in `block in call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/journey/router.rb:59:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/journey/router.rb:59:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:680:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/flash.rb:241:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/query_cache.rb:36:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/migration.rb:369:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:373:in `_run__265123150__call__callbacks'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:80:in `run_callbacks'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/rack/logger.rb:38:in `call_app'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/rack/logger.rb:20:in `block in call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/tagged_logging.rb:25:in `tagged'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/tagged_logging.rb:67:in `tagged'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/rack/logger.rb:20:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/static.rb:64:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/engine.rb:511:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/application.rb:97:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+C:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+C:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+C:/Ruby200-x64/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered notes/index.html.erb within layouts/application (281.0ms)
+Completed 500 Internal Server Error in 308ms
+
+ActionView::Template::Error (C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/views/notes/index.html.erb:85: syntax error, unexpected tLABEL, expecting '='
+...append=( delchecked_path, data: { confirm: 	'Are you sure yo...
+...                               ^):
+    82: 				<li><a href='#original-order'>ORIGINAL</a></li>		
+    83:           	</ul>
+    84:   			</li>
+    85: 			<li class="active"><a href='<%= delchecked_path, data: { confirm: 	'Are you sure you want to delete all things mark as done?' }%>'>REMOVE DONE</a></li>
+    86: 			</ul>
+    87: 			<div class="col-xs-12 col-md-3" id="search">
+    88: 				<%= form_tag notes_path, :method => 'get' do %>			
+  actionpack (4.0.3) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.3) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.3) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.3) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.3) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.3) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.3) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.3) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.3) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.3) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.3) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  C:/Ruby200-x64/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.3) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:413:in `_run__1422206926__process_action__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.3) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.3) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:373:in `_run__265123150__call__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby200-x64/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (86.0ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2014-03-30 12:23:11 +0200
+Processing by NotesController#index as HTML
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+ERROR: compiling _app_views_notes_index_html_erb___2130163412_52883960 RAISED C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/views/notes/index.html.erb:85: syntax error, unexpected tLABEL, expecting '='
+...append=( delchecked_path, data: { confirm: 	'Are you sure yo...
+...                               ^
+Function body:           def _app_views_notes_index_html_erb___2130163412_52883960(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "notes/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<!DOCTYPE html>
+<html>
+<h1>THINGS TO DO</h1>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script src="http://sigma.ug.edu.pl/~mlesniak/jquery.isotope.js" type="text/javascript"></script> 
+</head>
+<body>
+ 
+<script type="text/javascript">
+
+$(function(){
+  $(\'#container\').isotope({
+  getSortData : {
+    id : function ( $elem ) {
+      return $elem.find(\'.priority\').text();
+    }
+  }
+});
+	
+$(\'.sort a\').click(function(){
+  var sortName = $(this).attr(\'href\').slice(1);
+  $(\'#container\').isotope({ sortBy : sortName });
+  return false;
+});
+
+  
+  
+  var $container = $(\'#container\'),
+      $body = $(\'body\'),
+      colW = 60,
+      columns = null;
+  
+  $container.isotope({
+    // disable window resizing
+    resizable: false,
+    masonry: {
+      columnWidth: colW
+    }
+  });
+  
+  $(window).smartresize(function(){
+    // check if columns has changed
+    var currentColumns = Math.floor( ( $body.width() -10 ) / colW );
+    if ( currentColumns !== columns ) {
+      // set new column count
+      columns = currentColumns;
+      // apply width to container manually, then trigger relayout
+      $container.width( columns * colW )
+        .isotope(\'reLayout\');
+    }
+    
+  }).smartresize(); // trigger resize to set container width
+  
+});
+ 
+</script>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        ';@output_buffer.append=( link_to "MyNotes", "", :class => "navbar-brand" );@output_buffer.safe_append='
+';@output_buffer.safe_append='      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+		<li class="active"><a href=\'/notes\'>HOME</a></li>
+		  <li class="active"><a href=\'';@output_buffer.append=( new_note_path );@output_buffer.safe_append='\'>NEW NOTE</a></li>
+		     <li class="dropdown active">
+    		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      		SORT-BY<span class="caret"></span>
+    		</a>
+    		<ul class="dropdown-menu sort">
+				<li><a href=\'#id\'>PRIORITY</a></li>
+				<li class="divider"></li>
+				<li><a href=\'#random\'>RANDOM</a></li>
+				<li class="divider"></li>
+				<li><a href=\'#original-order\'>ORIGINAL</a></li>		
+          	</ul>
+  			</li>
+			<li class="active"><a href=\'';@output_buffer.append=( delchecked_path, data: { confirm: 	'Are you sure you want to delete all things mark as done?' });@output_buffer.safe_append='\'>REMOVE DONE</a></li>
+			</ul>
+			<div class="col-xs-12 col-md-3" id="search">
+				';@output_buffer.append=  form_tag notes_path, :method => 'get' do @output_buffer.safe_append='			
+';@output_buffer.safe_append='				<div class="input-group">
+    			';@output_buffer.append=( text_field_tag :search, params[:search] ,{ :class => 'form-control' });@output_buffer.safe_append='
+';@output_buffer.safe_append='				<span class="input-group-btn">
+    			';@output_buffer.append=( submit_tag "Search", :title => nil, :description => nil, :class => 'btn btn-default' );@output_buffer.safe_append='
+';@output_buffer.safe_append='				</span>
+				</div>
+';			 end 
+@output_buffer.safe_append='			</div>
+      </div>
+    </div>
+</div>
+<div id=\'container\'>
+'; @notes.each do |note| 
+@output_buffer.safe_append='      <div class=\'item\' id=\'';@output_buffer.append=( note.priority );@output_buffer.safe_append='\'>
+	   <div class="edit">
+	  ';@output_buffer.append=( link_to image_tag("http://sigma.ug.edu.pl/~mlesniak/glyphicons/glyphicons_150_edit.png", :border => 0), edit_note_path(note)  );@output_buffer.safe_append='
+';@output_buffer.safe_append='	  </div>
+	  <div class="delete">
+	  ';@output_buffer.append=( link_to image_tag("http://sigma.ug.edu.pl/~mlesniak/glyphicons/glyphicons_016_bin.png", :border => 0), note, method: :delete, data: { confirm: 	'Are you sure?' } );@output_buffer.safe_append='
+';@output_buffer.safe_append='	   </div>
+	   	<p class=\'priority\' hidden=\'true\'>';@output_buffer.append=( note.priority );@output_buffer.safe_append='<p>
+		<p class=\'checked\' hidden=\'true\'>';@output_buffer.append=( note.checked );@output_buffer.safe_append='<p>
+		 <div class="photo">
+		<p class=\'image\'>';@output_buffer.append=( image_tag note.photo_url.to_s,{ :class => 'img-thumbnail' } );@output_buffer.safe_append='<p>
+		 </div>
+		 <div class="checked">
+		 ';@output_buffer.append=( if note.checked == 'false'
+				 (link_to image_tag("http://sigma.ug.edu.pl/~mlesniak/glyphicons/glyphicons_153_unchecked.png", :border => 0), checked_note_path(note))
+  		  	 end
+		  );@output_buffer.safe_append='
+';@output_buffer.safe_append='		  ';@output_buffer.append=( if note.checked == 'true'
+				 (link_to image_tag("http://sigma.ug.edu.pl/~mlesniak/glyphicons/glyphicons_152_check.png", :border => 0), unchecked_note_path(note))
+  		  	 end
+		  );@output_buffer.safe_append='
+';@output_buffer.safe_append='		  </div>
+		 <div class="title">
+		 <div class="col-xs-6">
+		<h3>';@output_buffer.append=( note.title );@output_buffer.safe_append='</h3>
+		</div>
+		</div>
+		 <div class="description">
+        ';@output_buffer.append=( note.description );@output_buffer.safe_append='
+';@output_buffer.safe_append='		</div>
+      </div>
+'; end 
+@output_buffer.safe_append='</div>
+</body>
+
+<html>';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:299:in `module_eval'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:299:in `compile'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:248:in `block in compile!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:236:in `synchronize'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:236:in `compile!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:142:in `block in render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:161:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:141:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `block in instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:17:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/renderer.rb:42:in `render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/renderer.rb:23:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:127:in `_render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:97:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rendering.rb:16:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+C:/Ruby200-x64/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/base.rb:189:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:413:in `_run__1422206926__process_action__callbacks'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:80:in `run_callbacks'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `block in instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `instrument'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/base.rb:136:in `process'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:44:in `process'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal.rb:195:in `dispatch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal.rb:231:in `block in action'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:80:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:48:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/journey/router.rb:71:in `block in call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/journey/router.rb:59:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/journey/router.rb:59:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:680:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/flash.rb:241:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/query_cache.rb:36:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/migration.rb:369:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:373:in `_run__265123150__call__callbacks'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:80:in `run_callbacks'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/rack/logger.rb:38:in `call_app'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/rack/logger.rb:20:in `block in call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/tagged_logging.rb:25:in `tagged'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/tagged_logging.rb:67:in `tagged'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/rack/logger.rb:20:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/static.rb:64:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/engine.rb:511:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/application.rb:97:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+C:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+C:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+C:/Ruby200-x64/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered notes/index.html.erb within layouts/application (204.0ms)
+Completed 500 Internal Server Error in 222ms
+
+ActionView::Template::Error (C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/views/notes/index.html.erb:85: syntax error, unexpected tLABEL, expecting '='
+...append=( delchecked_path, data: { confirm: 	'Are you sure yo...
+...                               ^):
+    82: 				<li><a href='#original-order'>ORIGINAL</a></li>		
+    83:           	</ul>
+    84:   			</li>
+    85: 			<li class="active"><a href='<%= delchecked_path, data: { confirm: 	'Are you sure you want to delete all things mark as done?' }%>'>REMOVE DONE</a></li>
+    86: 			</ul>
+    87: 			<div class="col-xs-12 col-md-3" id="search">
+    88: 				<%= form_tag notes_path, :method => 'get' do %>			
+  actionpack (4.0.3) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.3) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.3) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.3) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.3) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.3) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.3) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.3) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.3) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.3) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.3) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.3) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.3) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  C:/Ruby200-x64/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.3) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:413:in `_run__1422206926__process_action__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.3) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.3) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.3) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.3) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.3) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.3) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:373:in `_run__265123150__call__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby200-x64/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby200-x64/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (110.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-30 12:25:10 +0200
+Processing by NotesController#index as HTML
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes"
+  Rendered notes/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 302ms (Views: 296.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:25:10 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:10 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:10 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:25:10 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:25:10 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:10 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:11 +0200
+
+
+Started GET "/notes?data%5Bconfirm%5D=Are+you+sure+you+want+to+delete+all+things+mark+as+done%3F" for 127.0.0.1 at 2014-03-30 12:25:20 +0200
+Processing by NotesController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Are you sure you want to delete all things mark as done?"}}
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  [1m[36mNote Load (1.0ms)[0m  [1mSELECT "notes".* FROM "notes"[0m
+  Rendered notes/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 201ms (Views: 192.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/notes?data%5Bconfirm%5D=Are+you+sure+you+want+to+delete+all+things+mark+as+done%3F" for 127.0.0.1 at 2014-03-30 12:25:20 +0200
+Processing by NotesController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Are you sure you want to delete all things mark as done?"}}
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes"
+  Rendered notes/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 173ms (Views: 168.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:25:21 +0200
+
+
+Started GET "/notes?data%5Bconfirm%5D=Are+you+sure+you+want+to+delete+all+things+mark+as+done%3F" for 127.0.0.1 at 2014-03-30 12:29:40 +0200
+Processing by NotesController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Are you sure you want to delete all things mark as done?"}}
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  Rendered notes/index.html.erb within layouts/application (16.0ms)
+Completed 500 Internal Server Error in 94ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::REMOVE):
+    82: 				<li><a href='#original-order'>ORIGINAL</a></li>		
+    83:           	</ul>
+    84:   			</li>
+    85: 			<li class="active"><%= link_to delchecked_path, REMOVE ,data: { confirm: 	'Are you sure you want to delete all things mark as done?' }%></li>
+    86: 			</ul>
+    87: 			<div class="col-xs-12 col-md-3" id="search">
+    88: 				<%= form_tag notes_path, :method => 'get' do %>			
+  app/views/notes/index.html.erb:85:in `_app_views_notes_index_html_erb___2130163412_48813680'
+
+
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (76.0ms)
+
+
+Started GET "/notes?data%5Bconfirm%5D=Are+you+sure+you+want+to+delete+all+things+mark+as+done%3F" for 127.0.0.1 at 2014-03-30 12:29:40 +0200
+Processing by NotesController#index as HTML
+  Parameters: {"data"=>{"confirm"=>"Are you sure you want to delete all things mark as done?"}}
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  Rendered notes/index.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::REMOVE):
+    82: 				<li><a href='#original-order'>ORIGINAL</a></li>		
+    83:           	</ul>
+    84:   			</li>
+    85: 			<li class="active"><%= link_to delchecked_path, REMOVE ,data: { confirm: 	'Are you sure you want to delete all things mark as done?' }%></li>
+    86: 			</ul>
+    87: 			<div class="col-xs-12 col-md-3" id="search">
+    88: 				<%= form_tag notes_path, :method => 'get' do %>			
+  app/views/notes/index.html.erb:85:in `_app_views_notes_index_html_erb___2130163412_52896540'
+
+
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (79.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+Processing by NotesController#index as HTML
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  [1m[36mNote Load (1.0ms)[0m  [1mSELECT "notes".* FROM "notes"[0m
+  Rendered notes/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 155ms (Views: 150.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:10 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:11 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:11 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:11 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:11 +0200

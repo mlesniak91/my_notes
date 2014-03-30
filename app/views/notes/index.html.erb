@@ -82,7 +82,7 @@ $('.sort a').click(function(){
 				<li><a href='#original-order'>ORIGINAL</a></li>		
           	</ul>
   			</li>
-			<li class="active"><a href='<%= delchecked_path %>'>REMOVE DONE</a></li>
+			<li class="active"><%= link_to "REMOVE DONE",delchecked_path,data: { confirm: 'Are you sure you want to delete all things mark as done?' }%></li>
 			</ul>
 			<div class="col-xs-12 col-md-3" id="search">
 				<%= form_tag notes_path, :method => 'get' do %>			
