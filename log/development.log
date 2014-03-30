@@ -64996,3 +64996,316 @@ Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:11 +0200
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:31:11 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-30 12:49:12 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by NotesController#index as HTML
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  [1m[35mNote Load (2.0ms)[0m  SELECT "notes".* FROM "notes"
+  Rendered notes/index.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 1079ms (Views: 1038.1ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:15 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:15 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:15 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:15 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:15 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:15 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:16 +0200
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2014-03-30 12:49:21 +0200
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (143.0ms)
+  Rendered notes/new.html.erb within layouts/application (170.0ms)
+Completed 200 OK in 348ms (Views: 345.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/notes/new" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (14.0ms)
+  Rendered notes/new.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 185ms (Views: 183.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:22 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:23 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:23 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:23 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:23 +0200
+
+
+Started POST "/notes" for 127.0.0.1 at 2014-03-30 12:49:28 +0200
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ypcAaw0Tv+Nllrgqn2Ok2kUI6mzhR81xs1GhEjJdI9Y=", "note"=>{"priority"=>"a", "checked"=>"false", "title"=>"TEST", "remote_photo_url"=>"", "description"=>"lkcfds"}, "commit"=>"Create Note"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (103.0ms)[0m  INSERT INTO "notes" ("checked", "created_at", "description", "photo", "priority", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["checked", "false"], ["created_at", Sun, 30 Mar 2014 10:49:28 UTC +00:00], ["description", "lkcfds"], ["photo", nil], ["priority", "a"], ["title", "TEST"], ["updated_at", Sun, 30 Mar 2014 10:49:28 UTC +00:00]]
+  [1m[36m (77.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/notes
+Completed 302 Found in 201ms (ActiveRecord: 180.0ms)
+
+
+Started GET "/notes" for 127.0.0.1 at 2014-03-30 12:49:28 +0200
+Processing by NotesController#index as HTML
+DEPRECATION WARNING: Model.scoped is deprecated. Please use Model.all instead. (called from search at C:/Users/Michal/Desktop/studia/ruby_projects/my_notes/app/models/note.rb:8)
+  [1m[35mNote Load (1.0ms)[0m  SELECT "notes".* FROM "notes"
+  Rendered notes/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 338ms (Views: 335.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:29 +0200
+
+
+Started GET "/notes?utf8=%E2%9C%93&search=test&commit=Search" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+Processing by NotesController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"test", "commit"=>"Search"}
+  [1m[36mNote Load (1.0ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE (lower(title) LIKE '%test%' OR description LIKE '%test%')[0m
+  Rendered notes/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 185ms (Views: 182.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:36 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:37 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:37 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:37 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:37 +0200
+
+
+Started GET "/assets/jquery.isotope.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:37 +0200
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:37 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 12:49:37 +0200

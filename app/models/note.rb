@@ -3,7 +3,7 @@ class Note < ActiveRecord::Base
 	
 	def self.search(search)
   		if search
-    		where('title LIKE ? OR description LIKE ?', "%#{search}%", "%#{search}%");
+    		where('lower(title) LIKE ? OR description LIKE ?', "%#{search.downcase}%", "%#{search.downcase}%");
   		else
     	scoped
   	end
